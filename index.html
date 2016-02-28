@@ -38,7 +38,7 @@
 								<div class="appPrompt">
 									<p class="addPrompt__text">GET THE APP</p>
 									<span class="app-icon apple-icon"></span>
-<!-- 									<span class="app-icon android-icon"></span> -->
+									<span class="app-icon android-icon"></span>
 									<span class="app-icon web-icon"></span>
 								</div>
 							</div>
@@ -95,7 +95,7 @@
 			<div class="takeoff__footerRight">
 				<nav>
 					<ul>
-						<li><a href="/" target="_blank">Services</a></li>
+						<li><a href="./feed.html" target="_blank">Gallery</a></li>
 						<li><a href="/" target="_blank">Projects</a></li>
 						<li><a href="/" target="_blank">Process</a></li>
 						<li><a href="/" target="_blank">Contact Us</a></li>
@@ -130,10 +130,20 @@
 		<script src="https://rawgit.com/d4nyll/lethargy/master/lethargy.min.js"></script>
 		<script src="https://rawgit.com/d4nyll/smartscroll/master/smartscroll.js"></script>
 		<script src="./assets/js/takeoff.js"></script>
+		<script src="./assets/js/instafeed.js"></script>
 		<script>
 		$(function() {
 		    $.takeoff();
 		});
+		</script>
+		<script type="text/javascript">
+		    var userFeed = new Instafeed({
+		        get: 'user',
+		        userId: 314008447,
+		        accessToken: '314008447.ab103e5.e1368d0145fb435db678a7dbc1365023',
+		        resolution: 'low_resolution',
+		    });
+		    userFeed.run();
 		</script>
 	</body>
 </html>

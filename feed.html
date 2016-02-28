@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>CopyCat iOS</title>
+        <link rel="manifest" href="/manifest.json">
+        <link rel="stylesheet" href="./assets/css/takeoff.css">
+        <link rel="stylesheet" href="./assets/css/default.css">
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    </head>
+    <body> 
+        <div id="instafeed" style="width: 80vw;margin: auto;">
+        </div>
+        <script src="./assets/js/instafeed.js"></script>
+        <script type="text/javascript">
+            var userFeed = new Instafeed({
+                get: 'user',
+                userId: 314008447,
+                accessToken: '314008447.ab103e5.e1368d0145fb435db678a7dbc1365023',
+                resolution: 'low_resolution',
+            });
+            userFeed.run();
+        </script>
+    </body>
+</html> 
