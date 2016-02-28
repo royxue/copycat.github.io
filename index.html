@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>CopyCat iOS</title>
+		<link rel="manifest" href="/manifest.json">
+		<meta name="apple-mobile-web-app-title" content="Takeoff">
+		<meta name="application-name" content="Takeoff">
+		<meta name="msapplication-TileColor" content="#f0bb6b">
+		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+		<meta name="theme-color" content="#f0bb6b">
+		<link rel="stylesheet" href="./assets/css/takeoff.css">
+		<link rel="stylesheet" href="./assets/css/default.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		<div class="takeoff__header">
+			<img id="header__logo" src="./assets/images/logos/copycat.png" alt="">
+		</div>
+		<div class="takeoff__content-centerer-outer">
+			<div class="takeoff__content-centerer-inner">
+				<div class="takeoff__content-container">
+					<img class="takeoff__device" src="./assets/images/devices/iphone-6-plus.png" alt="">
+					<div class="takeoff__screens">
+						<img src="./assets/images/screens/index.png" alt="">
+						<img src="./assets/images/screens/camera.png" alt="">
+						<img src="./assets/images/screens/ranking.png" alt="">
+						<img src="./assets/images/screens/photo.png" alt="">
+						<img src="./assets/images/screens/user.png" alt="">
+					</div>
+					<div class="takeoff__texts">
+						<div class="takeoff__textblock-container">
+							<div class="takeoff__textblock">
+								<h3>CopyCat App</h3>
+								<p>Be a photography master in clicks</p>
+								<div class="appPrompt">
+									<p class="addPrompt__text">GET THE APP</p>
+									<span class="app-icon apple-icon"></span>
+<!-- 									<span class="app-icon android-icon"></span> -->
+									<span class="app-icon web-icon"></span>
+								</div>
+							</div>
+							<div class="takeoff__textblock">
+								<h3>Take photos with great template</h3>
+								<p>We provide awesome photography templates from all over world, just for you.</p>
+								<div class="appPrompt">
+									<p class="addPrompt__text">GET THE APP</p>
+									<span class="app-icon apple-icon"></span>
+									<span class="app-icon android-icon"></span>
+									<span class="app-icon web-icon"></span>
+								</div>
+							</div>
+							<div class="takeoff__textblock">
+								<h3>Feel the trend, become the trend.</h3>
+								<p>Recommend best templates for you based on your interests and passion.</p>
+								<div class="appPrompt">
+									<p class="addPrompt__text">GET THE APP</p>
+									<span class="app-icon apple-icon"></span>
+									<span class="app-icon android-icon"></span>
+									<span class="app-icon web-icon"></span>
+								</div>
+							</div>
+							<div class="takeoff__textblock">
+								<h3>Open your own photography dojo</h3>
+								<p>Share your templates, get followers everywhere</p>
+								<div class="appPrompt">
+									<p class="addPrompt__text">GET THE APP</p>
+									<span class="app-icon apple-icon"></span>
+									<span class="app-icon android-icon"></span>
+									<span class="app-icon web-icon"></span>
+								</div>
+							</div>
+							<div class="takeoff__textblock">
+								<h3>Join CopyCat Community</h3>
+								<p>Be a CopyCat today ;)</p>
+								<div class="appPrompt">
+									<p class="addPrompt__text">GET THE APP</p>
+									<span class="app-icon apple-icon"></span>
+									<span class="app-icon android-icon"></span>
+									<span class="app-icon web-icon"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="takeoff__footer">
+			<div class="takeoff__nextSlide"></div>
+			<div class="takeoff__footerRight">
+				<nav>
+					<ul>
+						<li><a href="/" target="_blank">Services</a></li>
+						<li><a href="/" target="_blank">Projects</a></li>
+						<li><a href="/" target="_blank">Process</a></li>
+						<li><a href="/" target="_blank">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="takeoff__footerLeft">
+				Made with &hearts; by <a href="/" target="_blank"><b>CopyCat Team</b></a>
+			</div>
+		</div>
+		<div class="takeoff__backgrounds">
+			<section class="takeoff__backgroundBlock" data-tf-background-color="#e7e7e6">
+				<div class="decoration-circle yellow-circle" id="circle-1a"></div>
+				<div class="decoration-circle red-circle" id="circle-1b"></div>
+			</section>
+			<section class="takeoff__backgroundBlock" data-tf-background-color="#e6807b">
+				<div class="decoration-circle grey-circle" id="circle-2a"></div>
+				<div class="decoration-circle blue-circle" id="circle-2b"></div>
+			</section>
+			<section class="takeoff__backgroundBlock" data-tf-background-color="#f0bb6b">
+				<div class="decoration-circle grey-circle" id="circle-3a"></div>
+				<div class="decoration-circle blue-circle" id="circle-3b"></div>
+			</section>
+			<section class="takeoff__backgroundBlock" data-tf-background-color="#4fbce8">
+				<div class="decoration-circle yellow-circle" id="circle-4"></div>
+			</section>
+			<section class="takeoff__backgroundBlock" data-tf-background-color="#f0bb6b">
+				<div class="decoration-circle red-circle" id="circle-5"></div>
+			</section>
+		</div>
+		<script src="https://rawgit.com/Olical/EventEmitter/master/EventEmitter.min.js"></script>
+		<script src="https://rawgit.com/d4nyll/lethargy/master/lethargy.min.js"></script>
+		<script src="https://rawgit.com/d4nyll/smartscroll/master/smartscroll.js"></script>
+		<script src="./assets/js/takeoff.js"></script>
+		<script>
+		$(function() {
+		    $.takeoff();
+		});
+		</script>
+	</body>
+</html>
